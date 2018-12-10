@@ -40,6 +40,12 @@ ol, ul {
   padding-left: 30px;
 }
 
+.board-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .board-row:after {
   clear: both;
   content: "";
@@ -80,4 +86,8 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+p {
+  font-size: 10pt;
 }
